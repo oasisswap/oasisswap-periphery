@@ -2,7 +2,10 @@ import {
   abi as FACTORY_ABI,
   bytecode as FACTORY_BYTECODE,
 } from '@OasisSwap/v3-core/artifacts/contracts/OasisSwapV3Factory.sol/OasisSwapV3Factory.json'
-import { abi as FACTORY_V2_ABI, bytecode as FACTORY_V2_BYTECODE } from '@OasisSwap/v2-core/build/OasisSwapV2Factory.json'
+import {
+  abi as FACTORY_V2_ABI,
+  bytecode as FACTORY_V2_BYTECODE,
+} from '@OasisSwap/v2-core/build/OasisSwapV2Factory.json'
 import { Fixture } from 'ethereum-waffle'
 import { ethers, waffle } from 'hardhat'
 import { IOasisSwapV3Factory, IWETH9, MockTimeSwapRouter } from '../../typechain'

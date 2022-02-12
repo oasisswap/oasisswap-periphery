@@ -1,4 +1,4 @@
-![Oasisswapperiphery](https://github.com/OasisSwap/OasisSwap-Periphery/blob/master/OasisswapPeriphery.jpg) 
+![Oasisswapperiphery](https://github.com/OasisSwap/OasisSwap-Periphery/blob/master/OasisswapPeriphery.jpg)
 This repository contains the periphery smart contracts for the OasisSwap Protocol.
 For the lower level core contracts, see the [OasisSwap-core](https://github.com/OasisSwap/OasisSwap-core)
 repository.

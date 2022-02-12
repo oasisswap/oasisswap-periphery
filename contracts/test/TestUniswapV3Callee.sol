@@ -42,7 +42,13 @@ contract TestOasisSwapV3Callee is IOasisSwapV3SwapCallback {
         address recipient,
         uint160 sqrtPriceLimitX96
     ) external {
-        IOasisSwapV3Pool(pool).swap(recipient, false, -amount0Out.toInt256(), sqrtPriceLimitX96, abi.encode(msg.sender));
+        IOasisSwapV3Pool(pool).swap(
+            recipient,
+            false,
+            -amount0Out.toInt256(),
+            sqrtPriceLimitX96,
+            abi.encode(msg.sender)
+        );
     }
 
     function OasisSwapV3SwapCallback(
